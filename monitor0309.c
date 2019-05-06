@@ -3,11 +3,9 @@
 #include <math.h>
 
 int main() {
-
     int Q = 1;
     double PR = 1;
     double price = 0;
-
     while(Q > 0) {
         scanf("%d", &Q);
         if(Q <= 0) {
