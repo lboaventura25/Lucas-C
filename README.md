@@ -4,3 +4,4 @@
 - Listas 1, 2 e 3.
 - "monitor" + O numero da lista + numero do exercicio + .c
 - Ex.: monitor0306.c // Exercícios 6 da lista 3
+- Qualquer dúvida mandem no Telegram.
