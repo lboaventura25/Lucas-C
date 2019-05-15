@@ -36,9 +36,6 @@ int main() {
         else if(numbers[i] == 15) {
             printf("F");
         }
-        else if(numbers[i] == 16) {
-            printf("G");
-        }
         else if(numbers[i] < 10) {
             printf("%d", numbers[i]);
         }
