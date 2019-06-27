@@ -55,12 +55,12 @@ int main(){
 // int ord = 5;
 //     int aux, cont;
 
-//     while (ord > 1) {
+//     while (ord >= 1) {
 //         for (cont = 1; cont <= 5; cont++) {
-//             if (my_hand[cont] > my_hand[cont + 1]) {
-//                 aux = my_hand[cont];
-//                 my_hand[cont] = my_hand[cont + 1];
-//                 my_hand[cont + 1] = aux;
+//             if (my_hand[cont - 1] > my_hand[cont]) {
+//                 aux = my_hand[cont - 1];
+//                 my_hand[cont - 1] = my_hand[cont];
+//                 my_hand[cont] = aux;
 //             }
 //         }
 //         ord -= 1;
