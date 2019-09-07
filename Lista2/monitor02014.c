@@ -6,17 +6,25 @@ int main() {
     int initmin, inith, finalmin, finalh, p1, p2, p3, t;
     int min = 0;
     int price = 0;
+    
     scanf("%d %d", &A, &B);
+    
     initmin = A % 100;
     int J = A / 100;
+    
     inith = J % 100;
     finalmin = B % 100;
+    
     int L = B / 100;
     finalh = L % 100;
+    
     min = finalmin - initmin;
     int h = (abs(inith - finalh)) * 60;
+    
     //printf("%d %d", min, h);
+    
     int time = min + h;
+    
     if(time <= 15) {
         price = 0;
     }
